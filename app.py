@@ -108,7 +108,7 @@ def clean_answer(answer, question):
 
 # Streamlit UI
 st.title("🤖 AI-Powered PDF Q&A Bot")
-st.markdown("Upload a PDF to start asking questions! Powered by LangChain, HuggingFace Transformers, and ChromaDB.")
+st.markdown("Upload a PDF to start asking questions!.")
 
 # Sidebar for upload
 uploaded_file = st.sidebar.file_uploader("Choose a PDF file", type="pdf")
