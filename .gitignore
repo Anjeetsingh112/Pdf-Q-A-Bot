@@ -1,5 +1,26 @@
+# Virtual Environment
 venv/
-.env
+env/
+*.env
+
+# ChromaDB (vector database - auto-generated)
 chroma_db/
+chroma_db_*/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
