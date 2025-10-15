@@ -2,7 +2,22 @@
 headless = true
 enableCORS = false
 port = 8501
+maxUploadSize = 10
+enableXsrfProtection = true
 
 [browser]
 serverAddress = "localhost"
 gatherUsageStats = false
+
+[runner]
+# Reduce memory usage
+magicEnabled = false
+fastReruns = true
+
+[client]
+# Show error details
+showErrorDetails = true
+
+[logger]
+# Reduce logging overhead
+level = "error"
