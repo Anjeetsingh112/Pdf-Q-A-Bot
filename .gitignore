@@ -4,8 +4,10 @@ env/
 *.env
 
 # ChromaDB (vector database - auto-generated)
+# Ignore all folders starting with chroma_db (including those with spaces/special chars)
 chroma_db/
 chroma_db_*/
+**/chroma_db*/
 
 # Python
 __pycache__/
